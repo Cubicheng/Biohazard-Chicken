@@ -1,20 +1,4 @@
-﻿  bullet_manager.cpp
-  chicken_manager.cpp
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\atlas.h(32,23): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(15,35): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(15,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(37,77): warning C4838: 从“const int”转换到“float”需要收缩转换
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(37,77): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(37,84): warning C4838: 从“const int”转换到“float”需要收缩转换
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(37,84): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\atlas.h(32,23): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(15,35): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(15,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(37,77): warning C4838: 从“const int”转换到“float”需要收缩转换
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(37,77): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(37,84): warning C4838: 从“const int”转换到“float”需要收缩转换
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(37,84): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据
-  main.cpp
+﻿  main.cpp
 D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\atlas.h(32,23): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
 D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(15,35): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
 D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\bullet.h(15,25): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
@@ -32,15 +16,13 @@ D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(121,12):
 D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(121,12): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
 D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(121,32): warning C4838: 从“float”转换到“int”需要收缩转换
 D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(121,32): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(173,67): warning C4244: “参数”: 从“Sint32”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(173,51): warning C4244: “参数”: 从“Sint32”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(191,13): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(196,29): warning C4244: “参数”: 从“double”转换到“Uint32”，可能丢失数据
-  resources.cpp
-D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\atlas.h(32,23): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(171,67): warning C4244: “参数”: 从“Sint32”转换到“float”，可能丢失数据
+D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(171,51): warning C4244: “参数”: 从“Sint32”转换到“float”，可能丢失数据
+D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(189,13): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Visual Studio Workspace\Biohazard Chicken\Biohazard Chicken\main.cpp(194,29): warning C4244: “参数”: 从“double”转换到“Uint32”，可能丢失数据
   正在生成代码
-  253 of 600 functions (42.2%) were compiled, the rest were copied from previous compilation.
+  2 of 600 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    14 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   Biohazard Chicken.vcxproj -> D:\Visual Studio Workspace\Biohazard Chicken\x64\Release\Biohazard Chicken.exe

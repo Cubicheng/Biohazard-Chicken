@@ -28,7 +28,7 @@ public:
 	}
 
 	void update_angle_barrel() {
-		Vector2 dir = pos_crosshair - pos_barrel;
+		Vector2 dir = pos_crosshair - pos_barrel_center;
 		angle_barrel = std::atan2(dir.y, dir.x) * 180 / M_PI;
 	}
 

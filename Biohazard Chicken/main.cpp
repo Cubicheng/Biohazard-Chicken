@@ -161,8 +161,6 @@ void mainloop() {
 	Uint64 counter_freq = SDL_GetPerformanceFrequency();
 
 	while (is_running) {
-		
-
 		while (SDL_PollEvent(&event)) {
 			switch (event.type) {
 			case SDL_QUIT: {
