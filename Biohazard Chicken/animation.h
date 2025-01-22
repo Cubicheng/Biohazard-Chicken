@@ -56,7 +56,7 @@ public:
         this->on_timeout = on_timeout;
     }
 
-	void add_frame(Atlas* atlas) {
+	void add_frames(Atlas* atlas) {
 		for (int i = 0; i < atlas->get_size(); i++) {
 			SDL_Texture* texture = atlas->get_texture(i);
 
@@ -73,13 +73,17 @@ public:
 		const Frame& frame = frames[idx_frame];
 
 		SDL_FRect rect_dst = {
-			position.x - frame.rect_src.w/2,
-			position.y - frame.rect_src.h/2,
-			static_cast<float>(frame.rect_src.w),
-			static_cast<float>(frame.rect_src.h)
+			position.x - frame.rect_src.w/2.0f,
+			position.y - frame.rect_src.h/2.0f,
+			(float)frame.rect_src.w,
+			(float)frame.rect_src.h
 		};
 
 		camera.render_texture(frame.texture, &frame.rect_src, &rect_dst, angle, &center);
+	}
+
+	void on_update(float delta) {
+        timer.on_update(delta);
 	}
 
 private:

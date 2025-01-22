@@ -18,6 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="resources.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chicken_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="atlas.h">
@@ -33,6 +42,33 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chicken.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chicken_fast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chicken_medium.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chicken_slow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resources.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="barrel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chicken_manager.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
